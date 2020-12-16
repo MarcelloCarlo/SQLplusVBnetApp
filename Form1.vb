@@ -1,6 +1,5 @@
 ﻿Imports System.Configuration
 Imports System.Data.SqlClient
-Imports MetroFramework
 
 Public Class productsForm
     'Setup database connection. See: App.Config
