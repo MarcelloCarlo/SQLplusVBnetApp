@@ -22,9 +22,9 @@ Partial Class productsForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.productGridView = New MetroFramework.Controls.MetroGrid()
         Me.MetroLabel1 = New MetroFramework.Controls.MetroLabel()
         Me.MetroLabel2 = New MetroFramework.Controls.MetroLabel()
@@ -44,74 +44,80 @@ Partial Class productsForm
         Me.productGridView.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.productGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
         Me.productGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(219, Byte), Integer))
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(198, Byte), Integer), CType(CType(247, Byte), Integer))
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.productGridView.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(219, Byte), Integer))
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(198, Byte), Integer), CType(CType(247, Byte), Integer))
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.productGridView.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.productGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer))
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(198, Byte), Integer), CType(CType(247, Byte), Integer))
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.productGridView.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(136, Byte), Integer))
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(198, Byte), Integer), CType(CType(247, Byte), Integer))
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.productGridView.DefaultCellStyle = DataGridViewCellStyle2
         Me.productGridView.EnableHeadersVisualStyles = False
         Me.productGridView.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
         Me.productGridView.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.productGridView.Location = New System.Drawing.Point(23, 77)
+        Me.productGridView.Location = New System.Drawing.Point(31, 95)
+        Me.productGridView.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.productGridView.Name = "productGridView"
         Me.productGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(219, Byte), Integer))
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(198, Byte), Integer), CType(CType(247, Byte), Integer))
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.productGridView.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(219, Byte), Integer))
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(198, Byte), Integer), CType(CType(247, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer), CType(CType(17, Byte), Integer))
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.productGridView.RowHeadersDefaultCellStyle = DataGridViewCellStyle3
+        Me.productGridView.RowHeadersWidth = 51
         Me.productGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
         Me.productGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.productGridView.Size = New System.Drawing.Size(439, 293)
+        Me.productGridView.Size = New System.Drawing.Size(585, 361)
         Me.productGridView.TabIndex = 0
         '
         'MetroLabel1
         '
         Me.MetroLabel1.AutoSize = True
-        Me.MetroLabel1.Location = New System.Drawing.Point(468, 194)
+        Me.MetroLabel1.Location = New System.Drawing.Point(624, 239)
+        Me.MetroLabel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.MetroLabel1.Name = "MetroLabel1"
-        Me.MetroLabel1.Size = New System.Drawing.Size(45, 19)
+        Me.MetroLabel1.Size = New System.Drawing.Size(47, 20)
         Me.MetroLabel1.TabIndex = 1
         Me.MetroLabel1.Text = "Name"
         '
         'MetroLabel2
         '
         Me.MetroLabel2.AutoSize = True
-        Me.MetroLabel2.Location = New System.Drawing.Point(468, 235)
+        Me.MetroLabel2.Location = New System.Drawing.Point(624, 289)
+        Me.MetroLabel2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.MetroLabel2.Name = "MetroLabel2"
-        Me.MetroLabel2.Size = New System.Drawing.Size(38, 19)
+        Me.MetroLabel2.Size = New System.Drawing.Size(40, 20)
         Me.MetroLabel2.TabIndex = 2
         Me.MetroLabel2.Text = "Price"
         '
         'MetroLabel3
         '
         Me.MetroLabel3.AutoSize = True
-        Me.MetroLabel3.Location = New System.Drawing.Point(468, 275)
+        Me.MetroLabel3.Location = New System.Drawing.Point(624, 338)
+        Me.MetroLabel3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.MetroLabel3.Name = "MetroLabel3"
-        Me.MetroLabel3.Size = New System.Drawing.Size(36, 19)
+        Me.MetroLabel3.Size = New System.Drawing.Size(39, 20)
         Me.MetroLabel3.TabIndex = 3
         Me.MetroLabel3.Text = "Type"
         '
         'btnAdd
         '
-        Me.btnAdd.Location = New System.Drawing.Point(569, 324)
+        Me.btnAdd.Location = New System.Drawing.Point(759, 399)
+        Me.btnAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(75, 23)
+        Me.btnAdd.Size = New System.Drawing.Size(100, 28)
         Me.btnAdd.TabIndex = 4
         Me.btnAdd.Text = "Add"
         Me.btnAdd.UseSelectable = True
@@ -122,16 +128,18 @@ Partial Class productsForm
         '
         '
         Me.sNameTxtbx.CustomButton.Image = Nothing
-        Me.sNameTxtbx.CustomButton.Location = New System.Drawing.Point(97, 1)
+        Me.sNameTxtbx.CustomButton.Location = New System.Drawing.Point(177, 2)
+        Me.sNameTxtbx.CustomButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.sNameTxtbx.CustomButton.Name = ""
-        Me.sNameTxtbx.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.sNameTxtbx.CustomButton.Size = New System.Drawing.Size(31, 28)
         Me.sNameTxtbx.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.sNameTxtbx.CustomButton.TabIndex = 1
         Me.sNameTxtbx.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.sNameTxtbx.CustomButton.UseSelectable = True
         Me.sNameTxtbx.CustomButton.Visible = False
         Me.sNameTxtbx.Lines = New String(-1) {}
-        Me.sNameTxtbx.Location = New System.Drawing.Point(542, 194)
+        Me.sNameTxtbx.Location = New System.Drawing.Point(723, 239)
+        Me.sNameTxtbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.sNameTxtbx.MaxLength = 32767
         Me.sNameTxtbx.Name = "sNameTxtbx"
         Me.sNameTxtbx.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -140,7 +148,7 @@ Partial Class productsForm
         Me.sNameTxtbx.SelectionLength = 0
         Me.sNameTxtbx.SelectionStart = 0
         Me.sNameTxtbx.ShortcutsEnabled = True
-        Me.sNameTxtbx.Size = New System.Drawing.Size(119, 23)
+        Me.sNameTxtbx.Size = New System.Drawing.Size(159, 28)
         Me.sNameTxtbx.TabIndex = 5
         Me.sNameTxtbx.UseSelectable = True
         Me.sNameTxtbx.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
@@ -152,16 +160,18 @@ Partial Class productsForm
         '
         '
         Me.iPriceTxtbx.CustomButton.Image = Nothing
-        Me.iPriceTxtbx.CustomButton.Location = New System.Drawing.Point(80, 1)
+        Me.iPriceTxtbx.CustomButton.Location = New System.Drawing.Point(147, 2)
+        Me.iPriceTxtbx.CustomButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.iPriceTxtbx.CustomButton.Name = ""
-        Me.iPriceTxtbx.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.iPriceTxtbx.CustomButton.Size = New System.Drawing.Size(31, 28)
         Me.iPriceTxtbx.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.iPriceTxtbx.CustomButton.TabIndex = 1
         Me.iPriceTxtbx.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.iPriceTxtbx.CustomButton.UseSelectable = True
         Me.iPriceTxtbx.CustomButton.Visible = False
         Me.iPriceTxtbx.Lines = New String(-1) {}
-        Me.iPriceTxtbx.Location = New System.Drawing.Point(542, 235)
+        Me.iPriceTxtbx.Location = New System.Drawing.Point(723, 289)
+        Me.iPriceTxtbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.iPriceTxtbx.MaxLength = 32767
         Me.iPriceTxtbx.Name = "iPriceTxtbx"
         Me.iPriceTxtbx.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -170,7 +180,7 @@ Partial Class productsForm
         Me.iPriceTxtbx.SelectionLength = 0
         Me.iPriceTxtbx.SelectionStart = 0
         Me.iPriceTxtbx.ShortcutsEnabled = True
-        Me.iPriceTxtbx.Size = New System.Drawing.Size(102, 23)
+        Me.iPriceTxtbx.Size = New System.Drawing.Size(136, 28)
         Me.iPriceTxtbx.TabIndex = 6
         Me.iPriceTxtbx.UseSelectable = True
         Me.iPriceTxtbx.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
@@ -182,16 +192,18 @@ Partial Class productsForm
         '
         '
         Me.sTypeTxtbx.CustomButton.Image = Nothing
-        Me.sTypeTxtbx.CustomButton.Location = New System.Drawing.Point(97, 1)
+        Me.sTypeTxtbx.CustomButton.Location = New System.Drawing.Point(177, 2)
+        Me.sTypeTxtbx.CustomButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.sTypeTxtbx.CustomButton.Name = ""
-        Me.sTypeTxtbx.CustomButton.Size = New System.Drawing.Size(21, 21)
+        Me.sTypeTxtbx.CustomButton.Size = New System.Drawing.Size(31, 28)
         Me.sTypeTxtbx.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.sTypeTxtbx.CustomButton.TabIndex = 1
         Me.sTypeTxtbx.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.sTypeTxtbx.CustomButton.UseSelectable = True
         Me.sTypeTxtbx.CustomButton.Visible = False
         Me.sTypeTxtbx.Lines = New String(-1) {}
-        Me.sTypeTxtbx.Location = New System.Drawing.Point(542, 275)
+        Me.sTypeTxtbx.Location = New System.Drawing.Point(723, 338)
+        Me.sTypeTxtbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.sTypeTxtbx.MaxLength = 32767
         Me.sTypeTxtbx.Name = "sTypeTxtbx"
         Me.sTypeTxtbx.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -200,7 +212,7 @@ Partial Class productsForm
         Me.sTypeTxtbx.SelectionLength = 0
         Me.sTypeTxtbx.SelectionStart = 0
         Me.sTypeTxtbx.ShortcutsEnabled = True
-        Me.sTypeTxtbx.Size = New System.Drawing.Size(119, 23)
+        Me.sTypeTxtbx.Size = New System.Drawing.Size(159, 28)
         Me.sTypeTxtbx.TabIndex = 7
         Me.sTypeTxtbx.UseSelectable = True
         Me.sTypeTxtbx.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
@@ -210,7 +222,8 @@ Partial Class productsForm
         '
         Me.MetroLabel4.AutoSize = True
         Me.MetroLabel4.FontSize = MetroFramework.MetroLabelSize.Tall
-        Me.MetroLabel4.Location = New System.Drawing.Point(524, 105)
+        Me.MetroLabel4.Location = New System.Drawing.Point(699, 129)
+        Me.MetroLabel4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.MetroLabel4.Name = "MetroLabel4"
         Me.MetroLabel4.Size = New System.Drawing.Size(152, 25)
         Me.MetroLabel4.TabIndex = 8
@@ -218,10 +231,10 @@ Partial Class productsForm
         '
         'productsForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1067, 554)
         Me.Controls.Add(Me.MetroLabel4)
         Me.Controls.Add(Me.sTypeTxtbx)
         Me.Controls.Add(Me.iPriceTxtbx)
@@ -232,7 +245,9 @@ Partial Class productsForm
         Me.Controls.Add(Me.MetroLabel1)
         Me.Controls.Add(Me.productGridView)
         Me.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "productsForm"
+        Me.Padding = New System.Windows.Forms.Padding(27, 74, 27, 25)
         Me.Text = "ProductsVB"
         CType(Me.productGridView, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

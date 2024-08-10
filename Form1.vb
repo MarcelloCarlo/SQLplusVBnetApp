@@ -73,4 +73,8 @@ Public Class productsForm
         __bindGrid()
 
     End Sub
+
+    Private Sub productGridView_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles productGridView.CellContentClick
+        __bindGrid()
+    End Sub
 End Class
